@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { IonicModule } from '@ionic/angular';
 import { AppComponent } from './app.component';
 import {EstructuraModule} from "./estructura/estructura.module";
+import {ContenidoModule} from "./contenido/contenido.module";
 
 @NgModule({
   declarations: [
@@ -11,7 +12,8 @@ import {EstructuraModule} from "./estructura/estructura.module";
   imports: [
     BrowserModule,
     IonicModule.forRoot(),
-    EstructuraModule
+    EstructuraModule,
+    ContenidoModule
   ],
   providers: [],
   bootstrap: [AppComponent],

@@ -1,0 +1,42 @@
+<div class="wrapper">
+  <!-- Sidebar  -->
+  <nav id="sidebar">
+    <div class="sidebar-header">
+      <ion-icon name="list" style="max-width: 55%" type="button"></ion-icon>
+    </div>
+
+    <ul class="list-unstyled components">
+      <li>
+        <a href="#"><ion-icon name="home"></ion-icon> Inicio</a>
+      </li>
+      <li>
+        <a href="#"><ion-icon name="compass"></ion-icon> Explorar</a>
+      </li>
+      <li>
+        <a href="#"><ion-icon name="play-circle"></ion-icon> Suscripciones</a>
+      </li>
+
+    </ul>
+    <ul class="list-unstyled components">
+      <li>
+        <a href="#"><ion-icon name="book"></ion-icon> Libreria</a>
+      </li>
+      <li>
+        <a href="#"><ion-icon name="save"></ion-icon> Historial</a>
+      </li>
+      <li>
+        <a href="#"><ion-icon name="time"></ion-icon> Ver más tarde</a>
+      </li>
+      <li>
+        <a href="#"><ion-icon name="thumbs-up"></ion-icon> Videos que te <br>gustan</a>
+      </li>
+
+    </ul>
+  </nav>
+
+</div>
+<script>$(document).ready(function () {
+  $('#sidebarCollapse').on('click', function () {
+    $('#sidebar').toggleClass('active');
+  });
+});</script>
