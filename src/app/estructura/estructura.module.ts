@@ -11,7 +11,7 @@ import { SidebarComponent } from './sidebar/sidebar.component';
   declarations: [
     FooterComponent,
     EncabezadoComponent,
-    SidebarComponent
+    SidebarComponent,
   ],
   imports: [
     CommonModule,

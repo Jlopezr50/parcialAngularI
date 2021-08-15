@@ -1,0 +1,91 @@
+
+<ng-template #modalElemento1 let-modal>
+  <div class="modal-header" >
+      <img src="assets/imagenes/elementos-pantalla/imagen1.jpg" alt="elemento1" style="width: 100%" class="modal-title">
+      <button class="btn-close" aria-label="close" type="submit" (click)="modal.dismiss()">
+          <span aria-hidden="true"> &times; </span>
+      </button>
+  </div>
+  <div class="modal-body">
+      <p align="justify"> {{elemento1}}</p>
+  </div>
+</ng-template>
+<ng-template #modalElemento2 let-modal>
+  <div class="modal-header" >
+    <img src="assets/imagenes/elementos-pantalla/imagen2.jpg" alt="elemento2" style="width: 100%" class="modal-title">
+    <button class="btn-close" aria-label="close" type="submit" (click)="modal.dismiss()">
+      <span aria-hidden="true"> &times; </span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <p align="justify"> {{elemento2}}</p>
+  </div>
+</ng-template>
+<ng-template #modalElemento3 let-modal>
+  <div class="modal-header" >
+    <img src="assets/imagenes/elementos-pantalla/imagen3.jpeg" alt="elemento3" style="width: 100%" class="modal-title">
+    <button class="btn-close" aria-label="close" type="submit" (click)="modal.dismiss()">
+      <span aria-hidden="true"> &times; </span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <p align="justify"> {{elemento3}}</p>
+  </div>
+</ng-template>
+<ng-template #modalElemento4 let-modal>
+  <div class="modal-header" >
+    <img src="assets/imagenes/elementos-pantalla/imagen4.jpg" alt="elemento4" style="width: 100%" class="modal-title">
+    <button class="btn-close" aria-label="close" type="submit" (click)="modal.dismiss()">
+      <span aria-hidden="true"> &times; </span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <p align="justify"> {{elemento4}}</p>
+  </div>
+</ng-template>
+<ng-template #modalElemento5 let-modal>
+  <div class="modal-header" >
+    <img src="assets/imagenes/elementos-pantalla/imagen5.jpg" alt="elemento5" style="width: 100%" class="modal-title">
+    <button class="btn-close" aria-label="close" type="submit" (click)="modal.dismiss()">
+      <span aria-hidden="true"> &times; </span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <p align="justify"> {{elemento5}}</p>
+  </div>
+</ng-template>
+<ng-template #modalElemento6 let-modal>
+  <div class="modal-header" >
+    <img src="assets/imagenes/elementos-pantalla/imagen6.jpeg" alt="elemento6" style="width: 100%" class="modal-title">
+    <button class="btn-close" aria-label="close" type="submit" (click)="modal.dismiss()">
+      <span aria-hidden="true"> &times; </span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <p align="justify"> {{elemento6}}</p>
+  </div>
+</ng-template>
+<ng-template #modalElemento7 let-modal>
+  <div class="modal-header" >
+    <img src="assets/imagenes/elementos-pantalla/imagen7.jpg" alt="elemento6" style="width: 100%" class="modal-title">
+    <button class="btn-close" aria-label="close" type="submit" (click)="modal.dismiss()">
+      <span aria-hidden="true"> &times; </span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <p align="justify"> {{elemento7}}</p>
+  </div>
+</ng-template>
+
+<div class="row">
+  <div>
+    <span type="button" class="btn btn-outline-light" (click)="modal.open(modalElemento1)"> <img src="assets/imagenes/elementos-pantalla/elemento1.PNG" alt="elemento1"></span>
+    <span type="button" class="btn btn-outline-light" (click)="modal.open(modalElemento2)"> <img src="assets/imagenes/elementos-pantalla/elemento2.PNG" alt="elemento2"></span>
+    <span type="button" class="btn btn-outline-light" (click)="modal.open(modalElemento3)"> <img src="assets/imagenes/elementos-pantalla/elemento3.PNG" alt="elemento3"></span>
+    <span type="button" class="btn btn-outline-light" (click)="modal.open(modalElemento4)"> <img src="assets/imagenes/elementos-pantalla/elemento4.PNG" alt="elemento4"></span>
+    <span type="button" class="btn btn-outline-light" (click)="modal.open(modalElemento5)"> <img src="assets/imagenes/elementos-pantalla/elemento5.PNG" alt="elemento5"></span>
+    <span type="button" class="btn btn-outline-light" (click)="modal.open(modalElemento6)"> <img src="assets/imagenes/elementos-pantalla/elemento6.PNG" alt="elemento6"></span>
+    <span type="button" class="btn btn-outline-light" (click)="modal.open(modalElemento7)"> <img src="assets/imagenes/elementos-pantalla/elemento7.PNG" alt="elemento7"></span>
+
+  </div>
+</div>

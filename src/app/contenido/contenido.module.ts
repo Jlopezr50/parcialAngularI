@@ -1,16 +1,19 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { PaginaImagenesComponent } from './pagina-imagenes/pagina-imagenes.component';
-
+import { ElementosComponent } from './elementos/elementos.component';
+import {NgbButtonsModule} from "@ng-bootstrap/ng-bootstrap";
 
 
 @NgModule({
   declarations: [
-    PaginaImagenesComponent
+    PaginaImagenesComponent,
+    ElementosComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    NgbButtonsModule,
   ],
-  exports: [PaginaImagenesComponent]
+  exports: [PaginaImagenesComponent, ElementosComponent]
 })
 export class ContenidoModule { }
